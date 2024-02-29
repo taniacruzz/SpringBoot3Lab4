@@ -4,7 +4,7 @@ drop user if exists 'user'@'localhost';
 
 create schema spring;
 
-create user 'user'@'localhost' identified by 'pass123';
+create user 'user'@'localhost' identified by 'postgres';
 
 grant select, insert, delete, update on spring.* to user@'localhost';
 
