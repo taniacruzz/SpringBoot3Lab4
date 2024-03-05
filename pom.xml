@@ -8,7 +8,7 @@
 		<version>3.2.2</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>khali</groupId>
+	<groupId>br.gov.sp.fatec</groupId>
 	<artifactId>springboot3lab4</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>springboot3lab4</name>
@@ -33,8 +33,8 @@
 			<optional>true</optional>
 		</dependency>
 		<dependency>
-			<groupId>org.postgresql</groupId>
-			<artifactId>postgresql</artifactId>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
 			<scope>runtime</scope>
 		</dependency>
 		<dependency>
